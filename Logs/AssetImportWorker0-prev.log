@@ -1,0 +1,1088 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Augmented Reality\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Augmented Reality/Occulusion/ARFoundationOcclusion-feature-URPOcclusion
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64922
+Successfully changed project path to: D:/Augmented Reality/Occulusion/ARFoundationOcclusion-feature-URPOcclusion
+D:/Augmented Reality/Occulusion/ARFoundationOcclusion-feature-URPOcclusion
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path D:/Augmented Reality/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Augmented Reality/Occulusion/ARFoundationOcclusion-feature-URPOcclusion/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.5751
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Augmented Reality/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Augmented Reality/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Augmented Reality/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Augmented Reality/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Augmented Reality/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.038883 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.057 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2695 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 1.541400 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.161400 ms MarkObjects: 1.041300 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Plants/Plant-L-1.prefab
+  artifactKey: Guid(216d786f92f684a4e86f1612abfd909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-L-1.prefab using Guid(216d786f92f684a4e86f1612abfd909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(37633f1ef02f0d542a24ebec60781b85) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-1.fbx from editor
+Resuming Guid(37633f1ef02f0d542a24ebec60781b85) Importer(-1,00000000000000000000000000000000) -> 4a140c0d125a879400e65df32b5045ff 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: 'ef70f2ea0f6b28b4dc244576e90fc4ff') in 12.169049 seconds
+  Import took 12.172607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Prefabs/Plants/Plant-M-6.prefab
+  artifactKey: Guid(3c622d189e52f2746b186527b5ee82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-M-6.prefab using Guid(3c622d189e52f2746b186527b5ee82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(bb13571a05c0d5b4f9c1883c8941644d) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-M-6.fbx from editor
+Resuming Guid(bb13571a05c0d5b4f9c1883c8941644d) Importer(-1,00000000000000000000000000000000) -> 038f2192cc11ee2d91b79fdae23bfe5e 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: 'bb4816c8d92d2943b5580488bc578782') in 0.046050 seconds
+  Import took 0.049134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Prefabs/Plants/Plant-L-3.prefab
+  artifactKey: Guid(c4df3cb1fd26b7e4e9fccabf740270a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-L-3.prefab using Guid(c4df3cb1fd26b7e4e9fccabf740270a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(cd238c3967b601e468ba376c048a03fc) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-3.fbx from editor
+Resuming Guid(cd238c3967b601e468ba376c048a03fc) Importer(-1,00000000000000000000000000000000) -> 51a6cfbcd38b73089c570093013b8bad 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '37f0e13c09ca33837c8a6c24d4a9de67') in 0.036681 seconds
+  Import took 0.039754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-6.prefab
+  artifactKey: Guid(d37af5f7ef3d74e41b3639a102013047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-6.prefab using Guid(d37af5f7ef3d74e41b3639a102013047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(6e7644f32de42404cbc0b65cd3d91b57) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-6.fbx from editor
+Resuming Guid(6e7644f32de42404cbc0b65cd3d91b57) Importer(-1,00000000000000000000000000000000) -> 0b5970ab2947e147b6e3869fea66d1a3 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '39513a4dd3fe1bcad9a11815eff80b6a') in 0.044235 seconds
+  Import took 0.047503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-5.prefab
+  artifactKey: Guid(9fd1c62f70e498b4b905d4a6730ba08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-5.prefab using Guid(9fd1c62f70e498b4b905d4a6730ba08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(73842d26c36a2364fa4c33ea4302d0a7) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-5.fbx from editor
+Resuming Guid(73842d26c36a2364fa4c33ea4302d0a7) Importer(-1,00000000000000000000000000000000) -> 62dc5b2006d2fbe80821fd06175150f4 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '07592b1a1c91eff4944921387d98df14') in 0.039307 seconds
+  Import took 0.042499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-7.prefab
+  artifactKey: Guid(9477edfa6ec7e7243aa427d911c1f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-7.prefab using Guid(9477edfa6ec7e7243aa427d911c1f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(885b9f5899cfe894ea68840a0b002af2) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-7.fbx from editor
+Resuming Guid(885b9f5899cfe894ea68840a0b002af2) Importer(-1,00000000000000000000000000000000) -> 6175b747670b9da302e2e4e83ef537f4 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '8ca77953535cfeb71dd4a2a767e37fef') in 0.029934 seconds
+  Import took 0.032947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Prefabs/Plants/Plant-M-4.prefab
+  artifactKey: Guid(1f56de96915b9ee4eb89d7a4b97f7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-M-4.prefab using Guid(1f56de96915b9ee4eb89d7a4b97f7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(8905d82659e8b7b4dbeded3cbade8ba4) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-M-4.fbx from editor
+Resuming Guid(8905d82659e8b7b4dbeded3cbade8ba4) Importer(-1,00000000000000000000000000000000) -> fe009e79cc83d8ae797d7822a1d0d6d3 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: 'a73f391b4993441033a158e83f03b91c') in 0.034627 seconds
+  Import took 0.037632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Plants/Plant-M-5.prefab
+  artifactKey: Guid(47c52d6caa8d75248ac1e84110cda3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-M-5.prefab using Guid(47c52d6caa8d75248ac1e84110cda3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(e9c5d9d6e43f6b84bb6342c069b96d86) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-M-5.fbx from editor
+Resuming Guid(e9c5d9d6e43f6b84bb6342c069b96d86) Importer(-1,00000000000000000000000000000000) -> ed5999584cebcc1e8449e961777a5c7e 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '1c1c77d818c80b57819fa37206012201') in 0.024048 seconds
+  Import took 0.027062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Prefabs/Plants/Plant-M-3.prefab
+  artifactKey: Guid(6d84f64e834a7f444af90536297a13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-M-3.prefab using Guid(6d84f64e834a7f444af90536297a13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(5c27f069bed790a4bb94f922c62f5f7d) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-M-3.fbx from editor
+Resuming Guid(5c27f069bed790a4bb94f922c62f5f7d) Importer(-1,00000000000000000000000000000000) -> 073535996aaad6c7f9ff8525927c3fa1 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '7c59d0ae2312640c0755ffbdd2662550') in 0.048316 seconds
+  Import took 0.051415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-2.prefab
+  artifactKey: Guid(94c7d30021c417f4198081a279f6a8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-2.prefab using Guid(94c7d30021c417f4198081a279f6a8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(4f813ea0c9381a448817b84f1175d41a) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-2.fbx from editor
+Resuming Guid(4f813ea0c9381a448817b84f1175d41a) Importer(-1,00000000000000000000000000000000) -> 5d11e99374b0e541d3a3a97cdc39d167 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '3e4905bc0cb429f23a3641d00004e5a5') in 0.020169 seconds
+  Import took 0.023251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Prefabs/Plants/Plant-M-1.prefab
+  artifactKey: Guid(1853f9147e7c34043802af333617b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-M-1.prefab using Guid(1853f9147e7c34043802af333617b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(cd230d8426c7fe4468ecf0bdecec43c3) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-M-1.fbx from editor
+Resuming Guid(cd230d8426c7fe4468ecf0bdecec43c3) Importer(-1,00000000000000000000000000000000) -> 7fb8cefb87199d9a3515d4c7c650992b 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '2141bb246abd0a1f2aa464b571962319') in 0.029701 seconds
+  Import took 0.033027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Prefabs/Plants/Plant-L-5.prefab
+  artifactKey: Guid(ecb2f20808df4fc40b50801d38921a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-L-5.prefab using Guid(ecb2f20808df4fc40b50801d38921a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(a0d1312a79dc2414c913deb81d63d0da) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-5.fbx from editor
+Resuming Guid(a0d1312a79dc2414c913deb81d63d0da) Importer(-1,00000000000000000000000000000000) -> 40594b688e157b1c7e5903a40dc813cf 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '67c70b6124050b988f62880f3f1743b2') in 0.030140 seconds
+  Import took 0.040959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-4.prefab
+  artifactKey: Guid(d6aa17e0fb2bad940a7c2f2b81e95a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-4.prefab using Guid(d6aa17e0fb2bad940a7c2f2b81e95a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(d65bcc34eeca31849b7488addd4a8189) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-4.fbx from editor
+Resuming Guid(d65bcc34eeca31849b7488addd4a8189) Importer(-1,00000000000000000000000000000000) -> adeb25d6143cfd7d6a519e9c9250a5cd 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: 'ca620d8e86bedb7bcfb7eb9b52508095') in 0.025310 seconds
+  Import took 0.028444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Prefabs/Plants/Plant-L-2.prefab
+  artifactKey: Guid(3ba9ed74ff1562b4889f7b8b78f93c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-L-2.prefab using Guid(3ba9ed74ff1562b4889f7b8b78f93c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(db839588f2d147b4b90a635d8d8222c6) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-2.fbx from editor
+Resuming Guid(db839588f2d147b4b90a635d8d8222c6) Importer(-1,00000000000000000000000000000000) -> 2cb4d6f82ea83733b48d484ca5481c5a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: 'a3256fcac034af120f06ac3de83e59e0') in 0.027338 seconds
+  Import took 0.030703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/Plants/Plant-L-6.prefab
+  artifactKey: Guid(fa15322108347d148ac444744e0232a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-L-6.prefab using Guid(fa15322108347d148ac444744e0232a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(ce258acfa7c935d4c9131866ad48422a) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-6.fbx from editor
+Resuming Guid(ce258acfa7c935d4c9131866ad48422a) Importer(-1,00000000000000000000000000000000) -> a8d57725da761b65074f5e66b3c43d29 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '3ff5ea8fba501aaf09e06cf98a041793') in 0.042123 seconds
+  Import took 0.045586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-3.prefab
+  artifactKey: Guid(edf6e38ca571b744788d31aab96f76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-3.prefab using Guid(edf6e38ca571b744788d31aab96f76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(ce4b3263ed006b1458bd2439ce579a03) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-3.fbx from editor
+Resuming Guid(ce4b3263ed006b1458bd2439ce579a03) Importer(-1,00000000000000000000000000000000) -> f103bbbfa7d42fc286e338d3c6ca4c41 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '7a31967a0aab497939489a553b252619') in 0.014767 seconds
+  Import took 0.018298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Prefabs/Plants/Plant-S-1.prefab
+  artifactKey: Guid(b88b835055420d54b879b7d947487ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-S-1.prefab using Guid(b88b835055420d54b879b7d947487ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(4be3f804148ff434ab03f954d8c864f3) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-S-1.fbx from editor
+Resuming Guid(4be3f804148ff434ab03f954d8c864f3) Importer(-1,00000000000000000000000000000000) -> f41f41cb425fba8290ff2e90d3dd8431 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: 'cf87b86daf75266081236c981999de34') in 0.020128 seconds
+  Import took 0.023394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Prefabs/Plants/Plant-M-2.prefab
+  artifactKey: Guid(5c7ac5bbbc9b06f47a2c7a41f0c853a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-M-2.prefab using Guid(5c7ac5bbbc9b06f47a2c7a41f0c853a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(c88ba5015c15aa84e8f2985a37d1ccee) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-M-2.fbx from editor
+Resuming Guid(c88ba5015c15aa84e8f2985a37d1ccee) Importer(-1,00000000000000000000000000000000) -> 8ff1b7a74445734f54048d3448e25229 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '01002ab06510d31d057d6bcfbf599054') in 0.023678 seconds
+  Import took 0.026791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefabs/Plants/Plant-L-4.prefab
+  artifactKey: Guid(520ce861eab395740a5c9bd898cbd5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plants/Plant-L-4.prefab using Guid(520ce861eab395740a5c9bd898cbd5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71dca1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff71dd09662 (Unity) ResolveArtifactV2
+0x00007ff71dd2a322 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff71c5d7aa1 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff71c5d6fe5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff71c5dc62e (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff71c5dcd49 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff71c5dcafa (Unity) PersistentManager::ReadObject
+0x00007ff71ae55946 (Unity) PPtr<Mesh>::operator Mesh * __ptr64
+0x00007ff71bc1263e (Unity) MeshRenderer::UpdateCachedMesh
+0x00007ff71bc54ee9 (Unity) MeshFilter::AssignMeshToRenderer
+0x00007ff71c648fcf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff71c649932 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c649aba (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff71c5d8bbe (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff71c5d95d7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff71c5dcb63 (Unity) PersistentManager::ReadObject
+0x00007ff71dc5d941 (Unity) WritePreviews
+0x00007ff71dc577fe (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71dd644bf (Unity) ImportToObjects
+0x00007ff71dd63353 (Unity) AssetImportWorker::Import
+0x00007ff71dcc2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff71dd8dd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff71dd8fee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff71dd9366e (Unity) asio::io_service::run
+0x00007ff71dd09ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff71dd09bf0 (Unity) RunAssetImporterV2
+0x00007ff71d227ee6 (Unity) Application::InitializeProject
+0x00007ff71db9d0b2 (Unity) WinMain
+0x00007ff71fa00c66 (Unity) __scrt_common_main_seh
+0x00007ffbfdd17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbfe4fd241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(695919bf79fdf9f488f7946e976a4224) Importer(-1,00000000000000000000000000000000), Assets/Models/Plants/Plant-4.fbx from editor
+Resuming Guid(695919bf79fdf9f488f7946e976a4224) Importer(-1,00000000000000000000000000000000) -> 430825be8a7d25abcbd2fbb40279f26d 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
+
+ -> (artifact id: '24f757cee80247e1706c1c8861032875') in 0.014221 seconds
+  Import took 0.017575 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 2.644700 ms (FindLiveObjects: 0.312200 ms CreateObjectMapping: 0.130700 ms MarkObjects: 2.189300 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 855.511220 seconds.
+  path: Assets/Plant.unity
+  artifactKey: Guid(6baf1cae6026f5f4599034d44c8ce396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plant.unity using Guid(6baf1cae6026f5f4599034d44c8ce396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93f5128dae0faa4cd2d3b94c7ddd4c6') in 0.005693 seconds
+  Import took 0.020075 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
